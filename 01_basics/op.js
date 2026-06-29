@@ -1,30 +1,35 @@
-let score = null
+let val = 2
+let negval = -val
 
-console.log(typeof score) // string
-console.log(typeof (score)) 
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/2)
+// console.log(2%2)
 
-let valinnum = Number(score)
+let str1 = "Jai"
+let str2 = "Atlan"
 
-console.log(typeof valinnum) //number
-console.log(valinnum) // NaN
+let str3 = str1 + str2
+console.log(str3) // JaiAtlan
 
-// "33" => 33
-// "33abs" => NaN
-// true => 1 false => 0
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
 
-let isLoggedIn = ""
+console.log(3 + 4 * 5 % 3) // 5
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(+true) // 1
+console.log(+"") // 0
 
-console.log(booleanIsLoggedIn) // false
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
 
-// "" => false
-// "Jai" => true
-
-let somenum = 33
-
-let stringNum = String(somenum)
-
-console.log(typeof stringNum) // string
-console.log(stringNum) // "33"
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter) // 101
+++gameCounter
+console.log(gameCounter) // 102
 
