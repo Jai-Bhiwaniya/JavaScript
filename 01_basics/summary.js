@@ -32,3 +32,19 @@ console.log(typeof heros)
 // Reference (Non-Primitive)
 
 // Array, Objects, Functions
+
+
+// stack (Primitive) -> copy, heap (Not Primitive) -> reference
+let myNum = 100
+let anotherNum = myNum //copy
+anotherNum = 200
+console.log(myNum) // 100
+
+let userOne = {
+    email: "u1",
+    upi: "@xnx"
+}
+
+let userTwo = userOne // reference
+userTwo.email = "u2"
+console.log(userOne.email) // u2
